@@ -1,0 +1,19 @@
+.navbar-nav {
+    padding: 10px;
+  }
+  
+  .nav-item {
+    padding: 0px 60px;
+  }
+  
+  .navbar-brand{
+    margin: 10px 40px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .navbar-brand:hover{
+    opacity: 1.0;
+  }
+  
+  
