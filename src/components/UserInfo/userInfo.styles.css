@@ -1,0 +1,54 @@
+h2{
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+.row{
+    padding-top: 60px;
+    text-align: center;
+   
+}
+
+.user-info-container{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 20px;
+    min-height: 300px;
+    max-height: fit-content;
+}
+
+.user-repo-container{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    min-height: 300px;
+}
+
+
+
+
+
+
+/* .user-info-container {
+
+    
+    padding: 0px 40px;
+   
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.user-info{
+    width: 30%;
+}
+
+.avatar{
+    width: 60px;
+    display: flex;
+} */
