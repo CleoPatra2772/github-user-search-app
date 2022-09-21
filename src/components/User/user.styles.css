@@ -1,0 +1,38 @@
+h5, h6, a{
+    padding-left: 20px;
+}
+
+
+.search-results{
+    
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    position: relative;
+   
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    padding: 10px;
+    margin-top: -80px;
+    border-radius: 10px;
+    
+}
+
+.user .user-image img{
+    width: 120px;
+    border-radius: 10%;
+  
+    
+}
+
+.view-profile{
+    text-decoration: none;
+}
