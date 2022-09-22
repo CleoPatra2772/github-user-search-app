@@ -17,7 +17,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Search />}></Route>
             <Route path='/history' element={<History />}></Route>
-            <Route path='/user' element={<UserInfo />}></Route>
+            <Route path='/user/:login' element={<UserInfo />}></Route>
         </Routes>
         </div>
       

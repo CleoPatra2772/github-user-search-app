@@ -27,9 +27,18 @@ h2{
     min-height: 300px;
 }
 
+.user-repo-detail{
+    text-align: center;
+}
 
+h6{
+    text-align: center;
+    font: bold;
+}
 
-
+.repo-description{
+    text-align: center;
+}
 
 
 /* .user-info-container {
