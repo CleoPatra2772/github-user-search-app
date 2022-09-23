@@ -28,39 +28,6 @@ const Search = () => {
     }
 
 
-    // const fetchUsers = async () => {
-    //     try{
-    //         const response = await fetch(`https://api.github.com/search/users?q=${searchInput}`)
-    //         const data =await response.json()
-    //         console.log(data?.items);
-    //          setUser(data?.items);
-             
-    //     }catch(err){
-    //         console.log(err);
-    //         return null;
-    //     }
-    // }
-
-  
-
-   
-
-    // const fetchUsers = async (input) => {
-    //     input = searchInput;
-    //     try{
-    //         fetch(`https://api.github.com/search/users?q=${input}`)
-    //         .then((response) => response.json())
-    //         .then((data) => console.log(data));
-    //     }catch(err){
-    //         console.log(err);
-    //         return null;
-    //     }
-    // }
-
-  
-   
-
-
     const handleSearch = async (e) => {
         e.preventDefault();
         
@@ -73,15 +40,6 @@ const Search = () => {
         
     }
 
-    // const date = new Date();
-
-    // let day = date.getDate();
-    // let month = date.getMonth() + 1;
-    // let year = date.getFullYear();
-    // let currentDate = `${day}-${month}-${year}`;
-
-    // localStorage.setItem(searchInput, currentDate);
-    // console.log(localStorage);
 
 
 
